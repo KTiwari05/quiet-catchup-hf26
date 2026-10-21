@@ -74,4 +74,3 @@ I have not run a user study or measured a person's time savings. Quiet Catchup i
 ## Prize Categories
 
 This submission enters the overall challenge. It uses Qwen and Ollama and does not claim a partner prize category.
-
