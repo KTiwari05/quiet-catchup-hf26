@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env*
+.codebase-memory/
+.playwright-cli/
+output/
+submission/*.log

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quiet Catchup — less scrolling, more living</title><meta name="description" content="A local conversation digest with the original messages one click away."><link rel="icon" href="data:,"><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header><a href="/" class="brand"><span aria-hidden="true" class="mark">q</span>quiet catchup</a><span id="health" class="health" role="status">Checking local model…</span></header>
+<main>
+<section class="intro"><div><p class="eyebrow">LESS SCROLLING. MORE LIVING.</p><h1>Catch up.<br><em>Then clock out.</em></h1></div><p class="intro-copy">A busy conversation, reduced to what changed and what’s still open. On your computer. At your pace.</p></section>
+<div class="workspace">
+<section class="panel thread"><div class="panel-heading"><div><p class="eyebrow">THE CONVERSATION</p><h2>Leave the scrolling here.</h2></div><button type="button" id="sample" class="subtle">Try an example ↗</button></div>
+<form id="form"><label for="thread">Paste messages, one per line</label><textarea id="thread" minlength="30" maxlength="12000" required placeholder="Alex: Are we still meeting at 6?&#10;Sam: Let's move it to 7.&#10;Alex: 7 works. Who's booking the table?" spellcheck="false"></textarea><div class="input-note"><span id="count">0 / 12,000 characters</span><span>No account connections</span></div><button id="generate" type="submit" class="primary">Make my catchup <span aria-hidden="true">→</span></button><p class="small">Messages go to Ollama on this computer. This app does not save them. Use only conversations you’re allowed to process.</p></form>
+<p id="error" role="alert" hidden></p>
+<details id="sources" hidden><summary>Original messages <span id="source-count"></span></summary><ol id="source-list"></ol></details>
+</section>
+<section class="panel digest-panel" aria-labelledby="digest-heading"><div class="panel-heading"><div><p class="eyebrow">YOUR CATCHUP</p><h2 id="digest-heading">The short version.</h2></div><span class="draft-tag">AI draft</span></div>
+<div id="empty"><div class="rest-mark" aria-hidden="true">∿</div><h3>Let the thread do less.</h3><p>Two summary lines. A few decisions.<br>Only the questions still waiting.</p><p class="small">Start with the example or paste your own conversation.</p></div>
+<div id="loading" hidden role="status"><span class="breathing" aria-hidden="true"></span><h3>A little quiet, while it reads.</h3><p>The local model can take a minute or two.<br>You can leave this tab open.</p></div>
+<div id="result" hidden><p id="metrics" class="metrics"></p><p class="small review-note">Read the references before relying on this draft. A valid message number does not prove the model understood it.</p><div id="digest-content"></div><div class="export"><label class="check"><input id="reviewed" type="checkbox"> I checked this draft against the messages.</label><button id="download" type="button" disabled>Download my catchup ↓</button><p id="export-status" class="small" role="status">Review the draft to enable download.</p></div></div>
+</section>
+</div>
+<footer><span>Made for a slower kind of day.</span><span>Local inference · Open weights · No feed to keep up with</span></footer>
+</main></body></html>

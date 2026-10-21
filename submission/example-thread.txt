@@ -1,0 +1,16 @@
+09:00 Maya: Community lunch this Saturday. Shall we book the rooftop for 12 people?
+09:02 Leo: Sounds good. I can bring lemonade.
+09:03 Nia: The forecast looks uncertain. Is there an indoor option?
+09:06 Maya: The library room is available at 1 PM. We can use that instead.
+09:08 Leo: Yes, let's use the library. I'll still bring the lemonade.
+09:10 Nia: Agreed. I'll bring bread and hummus for everyone.
+09:11 Ravi: I might bring a board game if anyone wants to play.
+09:13 Maya: Library room confirmed for Saturday at 1 PM. The rooftop is canceled.
+09:14 Leo: Do we need to bring cups?
+09:16 Nia: I have reusable cups. I'll bring them.
+09:18 Maya: Please tell me about food allergies by Friday evening.
+09:19 Ravi: Has anyone checked whether the library entrance has a ramp?
+09:22 Leo: Not yet. Who can check that?
+09:24 Maya: Small update: we're 10 people now, not 12.
+09:25 Nia: Great. I'll adjust the food quantities for 10.
+09:27 Leo: Lemonade and cups are covered. See you Saturday.
