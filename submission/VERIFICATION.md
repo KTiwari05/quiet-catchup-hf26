@@ -50,7 +50,9 @@ The final browser run called the real model; no response mock was used.
 - The text download included edits, references, and all original messages.
 - Editing the original conversation hid the old digest and references.
 - Planner and generated-digest views fit a 375 × 812 viewport without
-  horizontal overflow. Screenshots are under `demo/`.
+  horizontal overflow. Screenshots are under `demo/`. The final mobile digest
+  screenshot replays the saved, edited first real reply with review unchecked;
+  it is a layout illustration, not an additional inference run.
 - The initial missing-favicon console error was fixed with an inline favicon;
   the reloaded final page had no reported console errors.
 
